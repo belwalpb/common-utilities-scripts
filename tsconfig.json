@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "target": "ESNext",                         
+    "module": "NodeNext",  
+    "moduleResolution": "NodeNext",  
+    "declaration": true,                
+    "strict": true,                          
+    "esModuleInterop": true,                  
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true, 
+    "strictPropertyInitialization": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "ts-node": {
+    "esm": true, // enabling ESM for ts-node
+  },
+  "exclude": ["node_modules"]
+}
